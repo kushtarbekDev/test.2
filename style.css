@@ -1,0 +1,27 @@
+.block {
+  width: 150px;
+  height: 150px;
+  background-color: transparent;
+  border: 1px solid #000;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.colorBack {
+  background-color: rgb(37, 188, 238);
+  border-radius: 10px;
+  transition: 0.8s;
+}
+
+button {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  font-size: 17px;
+  background-color: blue;
+  color: white;
+  transition: 0.8s;
+}
+button:active {
+  transform: scale(1.1);
+}
